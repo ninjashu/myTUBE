@@ -10,7 +10,7 @@ const Videolist = ({ items }) => {
           Videolist
           {items.map((element) => {
               return(
-                  <Videos key={element.toString()+"abc"} video ={element}/>
+                  <Videos video ={element}/>
               )
           })}
         </div>

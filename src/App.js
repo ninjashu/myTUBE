@@ -20,12 +20,11 @@ const App = () => {
       `&part=snippet%2Cid&regionCode=US&maxResults=50&order=date`;
 
     const options = {
-        method: 'GET',
+         method: 'GET',
       headers: {
         // "X-RapidAPI-Key": 'd524316328mshbea11e3b1cf1f18p18b2fejsn496c0cf813d6',
-        // "X-RapidAPI-Host": 'youtube-v31.p.rapidapi.com',
         "X-RapidAPI-Key": process.env.REACT_APP_API_KEY,
-        "X-RapidAPI-Host": process.env.REACT_APP_API_HOST,
+        "X-RapidAPI-Host": 'youtube-v31.p.rapidapi.com',
       },
     };
 

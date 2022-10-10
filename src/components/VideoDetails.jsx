@@ -7,7 +7,7 @@ const VideoDetails = ({ arr }) => {
   return (
     <>
       {arr.map((items) => {
-          return <Videolist key={items.toString()} items={items} />;
+          return <Videolist items={items} />;
       })}
     </>
   );
